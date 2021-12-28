@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import ImgSider from "./ImgSlider";
+import Movies from "./Movies";
 import Viewers from "./Viewers";
 
 function Home() {
@@ -8,6 +9,7 @@ function Home() {
     <Container>
       <ImgSider />
       <Viewers />
+      <Movies />
     </Container>
   );
 }
