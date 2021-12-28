@@ -45,6 +45,7 @@ const Nav = styled.nav`
   align-items: center;
   padding-left: 36px;
   padding-right: 36px;
+  overflow-x: hidden;
 `;
 
 const Logo = styled.img`
